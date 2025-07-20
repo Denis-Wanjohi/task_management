@@ -1,7 +1,14 @@
 <x-layout>
     <div class="min-h-screen flex items-center justify-center bg-gray-100 p-4">
         <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-md">
-            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">New Task</h2>
+            <div class="flex">
+            <a href="/"
+
+                class="bg-blue-600 hover:bg-blue-700 text-sm h-fit w-fit text-nowrap  text-white font-bold py-2 px-4 rounded-lg focus:outline-none focus:shadow-outline transition duration-300 ease-in-out transform hover:scale-105">
+                Home
+            </a>
+            <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center w-full">New Task</h2>
+            </div>
 
             <form action="{{route('task.store')}}" method="POST">
                 @csrf
