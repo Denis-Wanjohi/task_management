@@ -33,7 +33,10 @@ Follow these steps to get the application up and running on your local machine.
 - MySQL or PostgreSQL database
 
 ### Steps
-
+**Clone the repository**
+```sh
+git clone https://github.com/Denis-Wanjohi/task_management.git
+```
 **Install Composer Dependencies**
 ```sh
 composer install
