@@ -1,6 +1,6 @@
 # Task Management Application
 
-This is a simple yet robust task management application built with Laravel, allowing users to efficiently create, manage, and track their tasks.
+This is a simple  task management application built with Laravel, allowing users to efficiently create, manage, and track their tasks.
 
 ---
 
