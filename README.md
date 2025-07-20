@@ -36,6 +36,8 @@ Follow these steps to get the application up and running on your local machine.
 **Clone the repository**
 ```sh
 git clone https://github.com/Denis-Wanjohi/task_management.git
+
+cd task_management
 ```
 **Install Composer Dependencies**
 ```sh
